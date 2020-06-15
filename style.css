@@ -1,0 +1,146 @@
+body{
+    font-size: 16px;
+    color: black;
+    background-color: maroon;
+}
+
+#header-nav{
+    background-color: burlywood;
+    border-radius: 0;
+    border: 0;
+}
+
+
+#logo-img{
+    background: url(avengers_logo___pixel_by_socksyy_d4zd7be-fullview.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+    padding-top: 30px;
+
+}
+
+.navbar-brand h1{
+    color: maroon;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand p{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span{
+    vertical-align: middle;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{                /* Colors Menu Buttons */
+    color: maroon;
+    text-align: center;
+}
+
+#nav-list a:hover{          /* Backgroung-Colors Menu Buttons */
+    background: #e7e7e7;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+    color: maroon;
+    text-align: center;
+    padding-right: 15px;
+}
+
+
+/* #main-content{
+     background-color: midnightblue; 
+
+} */
+
+/* #menuBox{
+    background-color: midnightblue;
+} */
+
+
+
+#Menu-title{
+    font-size: 3em; 
+    font-weight: 545;
+    /* background-color: midnightblue; */
+}
+
+/* #switch{
+    float: right;
+} */
+
+/* #toggle-btn{
+    margin-top: 0;
+    padding-top: 0; 
+}  */
+
+#Shawarma{
+    text-align: center;
+    color: maroon;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 767px){
+
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p image{
+        height: 20px;
+    }
+
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+
+    .navbar-header button.navbar-toggle{
+        clear: both;
+    }
+}
+
